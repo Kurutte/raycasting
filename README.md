@@ -13,4 +13,6 @@ Scene files contain objects for the scene to be output to the image. The input.s
 - sphere, color: [1, 0, 0], position: [0, 1, -5], radius: 2
 - plane, color: [0, 1, 0], position: [0, -2, 0], normal: [0, 1, 0]
 
+Colors are RGB values from 0-1, positions/normal vectors are stored as arrays of 3 floats.
+
 Command Line: ``` raycast width height input.scene output.ppm ``` 	
