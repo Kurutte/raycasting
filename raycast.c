@@ -73,7 +73,7 @@ int main( int argc, char* argv[] )
 
 	for (int i = 0; i < loopIndex; i++)
 	{
-		sceneObjects[i].position[1] = sceneObjects[i].position[1] * -1;
+		sceneObjects[i].position[1] = camera->height - sceneObjects[i].position[1] - 1;
 	}
 	
 	// Initialize variables
