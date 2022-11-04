@@ -247,7 +247,7 @@ int shoot(float* ray, SceneObject *sceneObjects, float* origin, int loopIndex)
 		sceneIndex++;
 	}
 
-	// Return hit index (200 = no-hit)
+	// Return hit index (-1 = no hit)
 	return hitIndex;
 }
 
