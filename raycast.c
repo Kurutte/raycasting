@@ -71,6 +71,11 @@ int main( int argc, char* argv[] )
 		sceneIndex++;
 	}
 
+	for (int i = 0; i < loopIndex; i++)
+	{
+		sceneObjects[i].position[1] = sceneObjects[i].position[1] * -1;
+	}
+	
 	// Initialize variables
 	   // coord for pixels in pixmap.
 	float pX;
